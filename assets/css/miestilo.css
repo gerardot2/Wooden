@@ -1,0 +1,257 @@
+﻿
+body { 	background-image: url('FondoPrin.jpg');
+		background-repeat: no-repeat;
+		height: 100%;
+		margin: 0;
+		background-size: cover;
+	}
+
+.navbar-marca{
+  font-style: italic;
+  font-family: curier new;
+  color: #330019;
+  text-shadow: 2px 2px 25px black;
+  font-size: 150%;
+
+}
+
+.ctexto {
+
+  width: 300px;
+  height: 300px;
+  font-size: 17px;
+  margin: 10px;
+  padding: 15px;
+  border: 4px solid black;
+
+}
+
+.txtclaro {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 2px;
+
+}
+
+.divisor{
+  background: chartreuse;
+}
+
+.titulo{
+	font-style: italic;
+	font-size: 45px;
+	text-align: center;
+	font-weight: bold;
+  margin: 25px;
+}
+.parrafo{
+  background-color: crimson;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 60px;
+  padding-right: 10px;
+}
+.descimg{
+ 	background-color: rgba(191, 179, 112, 0.9);
+ 	font-family: curier new;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 40px;
+ 	padding-left: 10px;
+ 	padding-bottom: 40px;
+ 	padding-right: 10px;
+}
+.recuadro{
+	background-color: rgba(100, 255, 112, 0.2);
+  color: white;
+	font-style: italic bold;
+  font-size: 18px; 
+ 	margin-top: 10px;
+ 	padding-top: 15px;
+ 	padding-left: 15px;
+ 	padding-bottom: 15px;
+ 	padding-right: 15px;
+}
+
+
+.footer{
+  background-color: #D1D1D1;\
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+}
+
+
+.containerpro{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+.containerter{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: curier new;
+  font-size: 18px;
+}
+
+.divcontacto{
+  margin-top: 60px;  
+  margin-bottom: 100px;
+}
+
+.fuente-justi4{
+  text-align: center;
+  font-family: curier new;
+  font-style: italic;
+  color: #17202a;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.default-info {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+.card-img-top {
+  height: auto;
+}
+.card{
+  max-height: 385px;
+}
+.card-img{
+  object-fit: cover;
+}
+.card-body .card-title{
+  font-weight: 250%;
+  font-style: italic;
+  text-align: center;
+}
+
+.jumbotron{
+  height: auto;
+  margin-bottom: 0;
+}
+.display-4{
+  font-size-adjust: 80%;
+  text-shadow: 2px 2px 45px #3d185b;
+}
+
+div .display-3{
+  font-size: 5vw;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 15%;
+  }
+
+.form-control{
+  width: 60%;
+}
+
+.oscurecer{
+  opacity: 0.1;
+}
+
+.padding{
+  margin-bottom: 60px;
+}
+
+.carousel-item img {
+  width: 100;
+  height: 450px;
+  object-fit: cover;
+}
+
+.d-block {
+  object-fit: cover;
+}
+
+.cuadro-img{
+  border:1px solid gray;
+  border-radius:5px; 
+  background:#cccccc; 
+  height:100% auto; 
+  box-shadow:0px 0px 5px #000;
+  width:100%; 
+  margin:5px auto;
+}
+.fuente-justi3{
+  text-align: justify;
+  font-family: arial;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.text-medio{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.b{
+  text-decoration: underline;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+
+#total{
+    background-color: #333;
+    color: #fff;	
+
+}
