@@ -1,0 +1,15 @@
+Admin
+
+usuario: Gerardo01
+clave: 12312312
+
+Clientes
+
+usuario: Luis01
+clave: 22334455.
+
+usuario: Luis02
+clave: 78798081
+
+usuario: unapersona
+clave: 12345678
